@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/IntroProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/ZZ/GVVA68MYM4SDBQHTQ6WJVB.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/IntroProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/2D/6XQ7UHVSUEWIYOXTMDHHP7.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/IntroProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/CY/9Z9M8X9BKX9QHD4PKXW9NW.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/IntroProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/7/34/U7JQRFGG6BS1JLBYB2U4LF.uasset"
+			]
+		}
+	]
+}
