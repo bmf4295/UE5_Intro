@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\CryptRaider\\Source\\CryptRaider\\CryptRaider.Build.cs",
+		"C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\CryptRaider\\Source\\CryptRaider.Target.cs",
+		"C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\CryptRaider\\Source\\CryptRaiderEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.2"
+}

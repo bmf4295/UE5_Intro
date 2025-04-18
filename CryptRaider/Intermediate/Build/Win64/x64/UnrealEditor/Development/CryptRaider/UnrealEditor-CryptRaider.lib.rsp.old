@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CryptRaider.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\CryptRaiderEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaider.init.gen.cpp.obj"
+"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderCharacter.gen.cpp.obj"
+"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderGameMode.gen.cpp.obj"
+"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderPickUpComponent.gen.cpp.obj"
+"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderProjectile.gen.cpp.obj"
+"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderWeaponComponent.gen.cpp.obj"
+"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaider.cpp.obj"
+"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderCharacter.cpp.obj"
+"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderGameMode.cpp.obj"
+"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderPickUpComponent.cpp.obj"
+"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderProjectile.cpp.obj"
+"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\CryptRaiderWeaponComponent.cpp.obj"
+"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\PerModuleInline.gen.cpp.obj"
+"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\Default.rc2.res"
+/OUT:"C:\Users\bfrie\OneDrive\Desktop\Game Dev Courses\UE5_Intro\CryptRaider\Intermediate\Build\Win64\x64\UnrealEditor\Development\CryptRaider\UnrealEditor-CryptRaider.lib"

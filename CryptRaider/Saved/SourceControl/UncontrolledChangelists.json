@@ -1,0 +1,17 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/CryptRaider/Content/Dungeon.umap",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/CryptRaider/Content/MedievalDungeon/Materials/M_Tiling_Master.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/CryptRaider/Content/MedievalDungeon/Meshes/Architecture/Dungeon/SM_Floor.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/CryptRaider/Content/BP_Player.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/CryptRaider/Content/BP_CryptRaider_Gamemode.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/CryptRaider/Content/MedievalDungeon/Blueprints/BP_Torch_Dungeon.uasset"
+			]
+		}
+	]
+}
