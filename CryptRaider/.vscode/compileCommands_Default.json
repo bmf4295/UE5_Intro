@@ -104,6 +104,22 @@
 		"directory": "D:\\UnrealEngine\\UE_5.5\\Engine\\Source"
 	},
 	{
+		"file": "C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\CryptRaider\\Source\\CryptRaider\\Grabber.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.1.rsp"
+		],
+		"directory": "D:\\UnrealEngine\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\CryptRaider\\Source\\CryptRaider\\Grabber.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\CryptRaider\\.vscode\\compileCommands_Default\\CryptRaider.1.rsp"
+		],
+		"directory": "D:\\UnrealEngine\\UE_5.5\\Engine\\Source"
+	},
+	{
 		"file": "C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\CryptRaider\\Source\\CryptRaider\\Mover.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",

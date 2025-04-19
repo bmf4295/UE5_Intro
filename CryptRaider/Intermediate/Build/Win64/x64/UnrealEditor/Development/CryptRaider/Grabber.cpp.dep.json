@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\cryptraider\\source\\cryptraider\\grabber.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\cryptraider\\intermediate\\build\\win64\\x64\\cryptraidereditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\cryptraider\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\cryptraider\\definitions.cryptraider.h",
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\cryptraider\\source\\cryptraider\\grabber.h",
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\cryptraider\\intermediate\\build\\win64\\unrealeditor\\inc\\cryptraider\\uht\\grabber.generated.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\physicsengine\\physicshandlecomponent.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintinstance.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\physicsengine\\constraintdrives.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintdrives.generated.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\constraintinstance.generated.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\physicshandlecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
