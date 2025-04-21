@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Maps/Main_BuiltData.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Maps/Main.umap"
+			]
+		}
+	]
+}
