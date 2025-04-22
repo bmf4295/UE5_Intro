@@ -6,7 +6,10 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Maps/Main_BuiltData.uasset",
-				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Maps/Main.umap"
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Maps/Main.umap",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/ComponentsActor.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset"
 			]
 		}
 	]
