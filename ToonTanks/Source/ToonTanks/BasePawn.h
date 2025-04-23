@@ -6,6 +6,8 @@
 #include "GameFramework/Pawn.h"
 #include "BasePawn.generated.h"
 
+class USoundBase;
+class UCameraShakeBase;
 UCLASS()
 class TOONTANKS_API ABasePawn : public APawn
 {
@@ -14,9 +16,12 @@ class TOONTANKS_API ABasePawn : public APawn
 public:
 	// Sets default values for this pawn's properties
 	ABasePawn();
-
+	void HandleDestruction();
+	
 protected:
 	void RotateTurret(FVector LookAtTarget);
+	void Fire();
+	
 
 private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"), Category = "Components")
@@ -27,4 +32,13 @@ private:
 	UStaticMeshComponent* TurretMesh;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, meta = (AllowPrivateAccess = "true"), Category = "Components")
 	USceneComponent* ProjectileSpawnPoint;
+	UPROPERTY(EditDefaultsOnly,Category = "Combat")
+	TSubclassOf<class AProjectile> ProjectileClass;
+	UPROPERTY(EditAnywhere, Category="Effects")
+	class UParticleSystem* DeathParticles;
+
+	UPROPERTY(EditAnywhere, Category = "Effects")
+	USoundBase* DeathSound;
+	UPROPERTY(EditAnywhere, Category = "Effects")
+	TSubclassOf<UCameraShakeBase> DeathCameraShakeClass;
 };

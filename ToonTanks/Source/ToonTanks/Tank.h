@@ -18,7 +18,9 @@ class TOONTANKS_API ATank : public ABasePawn
 	ATank();
 	virtual void Tick(float DeltaTime) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
-
+	void HandleDestruction();
+	APlayerController* GetTankPlayerController() const {return TankPlayerController;}
+	bool bAlive = true;
 	protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -36,5 +38,5 @@ class TOONTANKS_API ATank : public ABasePawn
 	void Move(float Value);
 	void Turn(float Value);
 
-	APlayerController* PlayerControllerRef;
+	APlayerController* TankPlayerController;
 };

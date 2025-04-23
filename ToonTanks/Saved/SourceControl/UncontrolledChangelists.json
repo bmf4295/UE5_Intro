@@ -9,7 +9,15 @@
 				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Maps/Main.umap",
 				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/ComponentsActor.uasset",
 				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Blueprints/Pawns/BP_PawnTank.uasset",
-				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset"
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Blueprints/Pawns/BP_PawnTurret.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Blueprints/Actors/BP_Projectile.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Blueprints/GameModes/BP_ToonTanksGameMode.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Blueprints/Controllers/BP_ToonTanksPlayerController.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Blueprints/Widget/WBP_StartGameWidget.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Blueprints/Widget/WBP_EndGameWidget.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Blueprints/CameraShake/BP_HitCameraShake.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Blueprints/CameraShake/BP_DeathCameraShake.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/ToonTanks/Content/Blueprints/BP_Projectile.uasset"
 			]
 		}
 	]
