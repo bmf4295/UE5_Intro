@@ -73,3 +73,4 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 /ToonTanks/Binaries/Win64
+/ToonTanks/Saved/StagedBuilds/Windows/ToonTanks/Binaries/Win64
