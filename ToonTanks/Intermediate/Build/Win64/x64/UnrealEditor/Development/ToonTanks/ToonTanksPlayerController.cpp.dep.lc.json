@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\toontanks\\source\\toontanks\\toontanksplayercontroller.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\toontanks\\intermediate\\build\\win64\\x64\\toontankseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\toontanks\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\toontanks\\definitions.toontanks.h",
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\toontanks\\source\\toontanks\\toontanksplayercontroller.h",
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\toontanks\\intermediate\\build\\win64\\unrealeditor\\inc\\toontanks\\uht\\toontanksplayercontroller.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -16,6 +16,38 @@
 		"directory": "D:\\UnrealEngine\\UE_5.5\\Engine\\Source"
 	},
 	{
+		"file": "C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\Source\\ToonTanks\\HealthComponent.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.1.rsp"
+		],
+		"directory": "D:\\UnrealEngine\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\Source\\ToonTanks\\HealthComponent.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.1.rsp"
+		],
+		"directory": "D:\\UnrealEngine\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\Source\\ToonTanks\\Projectile.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.1.rsp"
+		],
+		"directory": "D:\\UnrealEngine\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\Source\\ToonTanks\\Projectile.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.1.rsp"
+		],
+		"directory": "D:\\UnrealEngine\\UE_5.5\\Engine\\Source"
+	},
+	{
 		"file": "C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\Source\\ToonTanks\\Tank.cpp",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
@@ -49,6 +81,54 @@
 	},
 	{
 		"file": "C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\Source\\ToonTanks\\ToonTanks.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.1.rsp"
+		],
+		"directory": "D:\\UnrealEngine\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\Source\\ToonTanks\\ToonTanksGameMode.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.1.rsp"
+		],
+		"directory": "D:\\UnrealEngine\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\Source\\ToonTanks\\ToonTanksGameMode.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.1.rsp"
+		],
+		"directory": "D:\\UnrealEngine\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\Source\\ToonTanks\\ToonTanksPlayerController.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.1.rsp"
+		],
+		"directory": "D:\\UnrealEngine\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\Source\\ToonTanks\\ToonTanksPlayerController.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.1.rsp"
+		],
+		"directory": "D:\\UnrealEngine\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\Source\\ToonTanks\\Tower.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.1.rsp"
+		],
+		"directory": "D:\\UnrealEngine\\UE_5.5\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\Source\\ToonTanks\\Tower.h",
 		"arguments": [
 			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\Hostx64\\x64\\cl.exe",
 			"@C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\ToonTanks\\.vscode\\compileCommands_Default\\ToonTanks.1.rsp"

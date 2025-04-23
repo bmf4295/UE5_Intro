@@ -20,7 +20,12 @@
             "d:\\unrealengine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dialoguetypes.generated.h",
             "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
             "d:\\unrealengine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
-            "d:\\unrealengine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h"
+            "d:\\unrealengine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\toontanks\\source\\toontanks\\projectile.h",
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\toontanks\\intermediate\\build\\win64\\unrealeditor\\inc\\toontanks\\uht\\projectile.generated.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\particles\\particlesystem.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\particles\\particleperfstats.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\particlesystem.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

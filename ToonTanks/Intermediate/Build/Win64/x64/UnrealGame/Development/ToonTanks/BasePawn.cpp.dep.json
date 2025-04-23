@@ -1,0 +1,34 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\toontanks\\source\\toontanks\\basepawn.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\toontanks\\intermediate\\build\\win64\\x64\\toontanks\\development\\engine\\sharedpch.engine.project.valapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\toontanks\\intermediate\\build\\win64\\x64\\unrealgame\\development\\toontanks\\definitions.toontanks.h",
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\toontanks\\source\\toontanks\\basepawn.h",
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\toontanks\\intermediate\\build\\win64\\unrealgame\\inc\\toontanks\\uht\\basepawn.generated.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\capsulecomponent.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\capsulecomponent.generated.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\dialoguetypes.generated.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\gameplaystatics.generated.h",
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\toontanks\\source\\toontanks\\projectile.h",
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\toontanks\\intermediate\\build\\win64\\unrealgame\\inc\\toontanks\\uht\\projectile.generated.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\particles\\particlesystem.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\particles\\particleperfstats.h",
+            "d:\\unrealengine\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\particlesystem.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
