@@ -1,0 +1,21 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/SimpleShooter/Content/AssetPacks/ModularSciFiSeason1/StarterBundle/CollectionMaps/Map1.umap",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/SimpleShooter/Content/Blueprints/BP_MyShooterCharacter.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/SimpleShooter/Content/Blueprints/BP_MyMyPawn.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/SimpleShooter/Content/Sandbox.umap",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/SimpleShooter/Content/SimpleShooterGameMode.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/SimpleShooter/Content/BP_SimpleShooterGameMode.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/SimpleShooter/Content/AssetPacks/ParagonWraith/Characters/Heroes/Wraith/WraithPlayerCharacter.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/SimpleShooter/Content/AssetPacks/ModularSciFiSeason1/StarterBundle/ModularSci_Comm/Meshes/SM_Stairs_A1.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/SimpleShooter/Content/Blueprints/ABP_ShooterCharacter.uasset",
+				"C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/SimpleShooter/Content/Blueprints/BS_Locomotion.uasset"
+			]
+		}
+	]
+}

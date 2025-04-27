@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\SimpleShooter\\Source\\SimpleShooter\\SimpleShooter.Build.cs",
+		"C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\SimpleShooter\\Source\\SimpleShooter.Target.cs",
+		"C:\\Users\\bfrie\\OneDrive\\Desktop\\Game Dev Courses\\UE5_Intro\\SimpleShooter\\Source\\SimpleShooterEditor.Target.cs"
+	],
+	"EngineVersion": "5.5.2"
+}

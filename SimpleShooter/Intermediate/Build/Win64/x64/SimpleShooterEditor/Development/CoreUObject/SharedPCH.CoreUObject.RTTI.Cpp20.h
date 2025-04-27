@@ -1,0 +1,3 @@
+// PCH for Runtime/CoreUObject/Public/CoreUObjectSharedPCH.h
+#include "C:/Users/bfrie/OneDrive/Desktop/Game Dev Courses/UE5_Intro/SimpleShooter/Intermediate/Build/Win64/x64/SimpleShooterEditor/Development/CoreUObject/SharedDefinitions.CoreUObject.RTTI.Cpp20.h"
+#include "Runtime/CoreUObject/Public/CoreUObjectSharedPCH.h"
