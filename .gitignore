@@ -75,3 +75,5 @@ DerivedDataCache/*
 /ToonTanks/Binaries/Win64
 /ToonTanks/Saved/StagedBuilds/Windows/ToonTanks/Binaries/Win64
 /ToonTanks/Saved/StagedBuilds
+
+/SimpleShooter/.vscode/*
