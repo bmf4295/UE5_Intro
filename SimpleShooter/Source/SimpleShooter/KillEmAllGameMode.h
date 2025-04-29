@@ -13,5 +13,10 @@ UCLASS()
 class SIMPLESHOOTER_API AKillEmAllGameMode : public AASimpleShooterGameModeBase
 {
 	GENERATED_BODY()
+	public:
 	virtual void PawnKilled(APawn* PawnKilled) override;
+
+	private:
+	void EndGame(bool bIsPlayerWinner);
+	
 };

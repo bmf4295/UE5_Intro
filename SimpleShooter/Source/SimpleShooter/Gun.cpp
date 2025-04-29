@@ -1,64 +1,78 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
 #include "Gun.h"
 #include "Components/SkeletalMeshComponent.h"
 #include "Kismet/GameplayStatics.h"
 #include "DrawDebugHelpers.h"
 #include "Engine/DamageEvents.h"
+
+
 // Sets default values
 AGun::AGun()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	GunRoot = CreateDefaultSubobject<USceneComponent>(TEXT("Gun"));
 	SetRootComponent(GunRoot);
 	GunMesh = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("Gun Mesh"));
 	GunMesh->SetupAttachment(GunRoot);
-
 }
 
 // Called when the game starts or when spawned
 void AGun::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
 void AGun::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
 }
 
-void AGun::PullTrigger(){
-	UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GunMesh, TEXT("MuzzleFlashSocket"));
+AController* AGun::GetOwnerController() const{
+	APawn *GunOwner = Cast<APawn>(GetOwner());
+	if (GunOwner == nullptr){return nullptr;}
 	
-	APawn* GunOwner = Cast<APawn>(GetOwner());
-	if(GunOwner == nullptr) return; 
-	AController* OwnerController = GunOwner->GetController();
-	if(OwnerController){
-		FVector loc(0.f);
-		FRotator rot = FRotator::ZeroRotator;
-		OwnerController->GetPlayerViewPoint(loc,rot);
-		FVector End = loc + rot.Vector() * MaxRange;
-		FHitResult OutHitResult;
-		FCollisionQueryParams Params;
-		Params.AddIgnoredActor(this);
-		Params.AddIgnoredActor(GetOwner());
-		bool bHit = GetWorld()->LineTraceSingleByChannel(OutHitResult, loc, End, ECollisionChannel::ECC_GameTraceChannel1, Params);
-		if(bHit){
-			DrawDebugPoint(GetWorld(), OutHitResult.Location, 20.f, FColor::Red, true);
-			FVector ShotDirection = -rot.Vector();
-			UGameplayStatics::SpawnEmitterAtLocation(GetWorld(),ImpactEffect,OutHitResult.Location, ShotDirection.Rotation());
+	return GunOwner->GetController();
+}
+bool AGun::GunTrace(FHitResult &Hit, FVector &ShotDirection)
+{
+	AController* OwnerController = GetOwnerController();
+	if(OwnerController == nullptr){
+		return false;
+	}
+	FVector loc(0.f);
+	FRotator rot = FRotator::ZeroRotator;
+	OwnerController->GetPlayerViewPoint(loc, rot);
+	ShotDirection = -rot.Vector();
+	FVector End = loc + rot.Vector() * MaxRange;
+	FCollisionQueryParams Params;
+	Params.AddIgnoredActor(this);
+	Params.AddIgnoredActor(GetOwner());
+	return GetWorld()->LineTraceSingleByChannel(Hit, loc, End, ECollisionChannel::ECC_GameTraceChannel1, Params);
+}
 
-			if(OutHitResult.GetActor()){
-				FPointDamageEvent DamageEvent(Damage, OutHitResult, ShotDirection, nullptr);
-				OutHitResult.GetActor()->TakeDamage(Damage,DamageEvent, OwnerController, this );
-			}
+void AGun::PullTrigger()
+{
+	UGameplayStatics::SpawnEmitterAttached(MuzzleFlash, GunMesh, TEXT("MuzzleFlashSocket"));
+	UGameplayStatics::SpawnSoundAttached(MuzzleSound,GunMesh, TEXT("MuzzleFlashSocket"));
+	
+	FHitResult OutHitResult;
+	FVector ShotDirection;
+	bool bHit = GunTrace(OutHitResult, ShotDirection);
+	
+	if (bHit)
+	{
+		UGameplayStatics::SpawnEmitterAtLocation(GetWorld(), ImpactEffect, OutHitResult.Location, ShotDirection.Rotation());
+		UGameplayStatics::PlaySoundAtLocation(GetWorld(),ImpactSound, OutHitResult.Location);
+
+		AActor* HitActor = OutHitResult.GetActor();
+		if (HitActor!= nullptr)
+		{
+			FPointDamageEvent DamageEvent(Damage, OutHitResult, ShotDirection, nullptr);
+			AController* OwnerController = GetOwnerController();
+			HitActor->TakeDamage(Damage, DamageEvent, OwnerController, this);
 		}
 	}
-	
-
 }

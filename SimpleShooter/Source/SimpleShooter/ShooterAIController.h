@@ -17,6 +17,7 @@ protected:
 
 public:
 	virtual void Tick(float DeltaTime) override;
+	bool IsDead() const;
 
 private:
 	UPROPERTY(EditAnywhere)
