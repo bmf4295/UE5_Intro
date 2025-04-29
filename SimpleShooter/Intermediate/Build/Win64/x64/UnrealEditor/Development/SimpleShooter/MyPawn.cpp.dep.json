@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\simpleshooter\\source\\simpleshooter\\mypawn.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\simpleshooter\\intermediate\\build\\win64\\x64\\simpleshootereditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\simpleshooter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\simpleshooter\\definitions.simpleshooter.h",
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\simpleshooter\\source\\simpleshooter\\mypawn.h",
+            "c:\\users\\bfrie\\onedrive\\desktop\\game dev courses\\ue5_intro\\simpleshooter\\intermediate\\build\\win64\\unrealeditor\\inc\\simpleshooter\\uht\\mypawn.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
